@@ -1,0 +1,6 @@
+_Prebuild
+
+PodCache.xcodeproj/xcuserdata
+
+Pods
+Podfile.lock

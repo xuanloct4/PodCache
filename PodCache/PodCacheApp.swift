@@ -7,6 +7,12 @@
 
 import SwiftUI
 import SwiftData
+//import Alamofire
+//import Kingfisher
+//import AFNetworking
+//import Kingfisher
+//import SDWebImage
+//import SnapKit
 
 @main
 struct PodCacheApp: App {
@@ -17,6 +23,7 @@ struct PodCacheApp: App {
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
+            
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
